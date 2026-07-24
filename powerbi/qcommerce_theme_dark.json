@@ -1,0 +1,125 @@
+{
+  "name": "QCommerce Dark",
+  "dataColors": [
+    "#F8CB46",
+    "#B026FF",
+    "#FC8019",
+    "#39D2C0",
+    "#FF5C77",
+    "#4E8CFF",
+    "#7FE070",
+    "#FF9EDB"
+  ],
+  "background": "#181A24",
+  "foreground": "#F2F2F5",
+  "tableAccent": "#F8CB46",
+  "good": "#7FE070",
+  "neutral": "#F8CB46",
+  "bad": "#FF5C77",
+  "maximum": "#F8CB46",
+  "center": "#B026FF",
+  "minimum": "#232635",
+  "null": "#4A4E5D",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#F2F2F5"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 14,
+      "color": "#F2F2F5"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#B7BAC5"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#20232F" } },
+            "transparency": 0
+          }
+        ],
+        "border": [{ "show": false }],
+        "dropShadow": [{ "show": true }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#181A24" } },
+            "transparency": 0
+          }
+        ],
+        "outspacePane": [
+          {
+            "backgroundColor": { "solid": { "color": "#181A24" } }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#20232F" } }
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#F8CB46" } },
+            "fontSize": 30
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#B7BAC5" } },
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "gridVertical": false,
+            "rowPadding": 6
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#F8CB46" } },
+            "backColor": { "solid": { "color": "#20232F" } },
+            "fontSize": 11
+          }
+        ],
+        "values": [
+          {
+            "fontColor": { "solid": { "color": "#F2F2F5" } },
+            "backColor": { "solid": { "color": "#20232F" } },
+            "fontSize": 10
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#20232F" } }
+          }
+        ]
+      }
+    }
+  }
+}
