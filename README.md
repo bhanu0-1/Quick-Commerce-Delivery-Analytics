@@ -100,16 +100,18 @@ Discount rate is essentially flat across all 7 product categories (~40% each). B
 Built in Power BI, 3 pages, connected live to the PostgreSQL star schema via Import mode:
 
 - **Platform Benchmarking** — full metric table, AOV ranking, and a speed-vs-value scatter plot across all 8 platforms
+
+<img width="1424" height="799" alt="Screenshot 2026-07-24 132550" src="https://github.com/user-attachments/assets/b1a2ca8b-9303-4d5d-8947-18c948b903fb" />
+
+
 - **City Performance** — sortable city scorecard (orders, AOV, delivery time, P90, discount rate) plus a category-by-city matrix
-- **Discount & Pricing** — category vs. quartile discount comparison, plus a per-platform discount breakdown
 
 <img width="1427" height="802" alt="Screenshot 2026-07-24 135511" src="https://github.com/user-attachments/assets/9be0ffc6-1fc0-4300-b5a3-85a77725c494" />
 
 
+- **Discount & Pricing** — category vs. quartile discount comparison, plus a per-platform discount breakdown
+
 <img width="1421" height="794" alt="Screenshot 2026-07-24 132647" src="https://github.com/user-attachments/assets/66580d2e-b168-4d67-9282-49ebcd9f67e0" />
-
-
-<img width="1424" height="799" alt="Screenshot 2026-07-24 132550" src="https://github.com/user-attachments/assets/b1a2ca8b-9303-4d5d-8947-18c948b903fb" />
 
 ---
 
